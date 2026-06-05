@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: './', // Використовуємо відносні шляхи для GitHub Pages
+  base: '/jules/', // Назва вашого репозиторію на GitHub
 })
