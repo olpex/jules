@@ -1,16 +1,46 @@
-# React + Vite
+# MobiSafe — Проєкт про безпеку мобільних пристроїв
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Це сучасний веб-сайт, створений для навчання звичайних користувачів основам захисту смартфонів та персональних даних.
 
-Currently, two official plugins are available:
+## Можливості
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Навчальний центр**: Інформація про захист даних, безпеку Wi-Fi, антивіруси та 2FA.
+- **Генератор паролів**: Створення надійних паролів.
+- **Чек-лист безпеки**: Перевірка налаштувань вашого пристрою.
+- **Симулятор фішингу**: Інтерактивна демонстрація того, як працюють зловмисники.
+- **Тест знань**: Перевірка рівня вашої цифрової грамотності.
 
-## React Compiler
+## Технології
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- Lucide React (для іконок) / Emoji
+- tailwindcss-animate
 
-## Expanding the ESLint configuration
+## Як запустити проект
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Оскільки це сучасний React-застосунок, його не можна просто відкрити через файл `index.html`. Для роботи потрібне середовище Node.js.
+
+1. **Встановіть залежності** (якщо ви тільки завантажили проект):
+   ```bash
+   npm install
+   ```
+
+2. **Запустіть сервер для розробки**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Відкрийте сайт**:
+   Після запуску попередньої команди у терміналі з'явиться посилання (зазвичай `http://localhost:5173/`). Перейдіть за ним у браузері.
+
+## Збірка для розгортання
+
+Якщо ви хочете створити оптимізовану версію для розміщення на хостингу:
+
+```bash
+npm run build
+```
+
+Результат буде у папці `dist/`.
